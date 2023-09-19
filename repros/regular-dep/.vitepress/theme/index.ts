@@ -3,7 +3,7 @@ import { h } from "vue";
 import Theme from "vitepress/theme";
 import "./style.css";
 
-import { TryUseData } from "vitepress-usedata-repro-monorepo-components";
+import { TryUseData } from "vitepress-plugin-testcomponents";
 
 export default {
   extends: Theme,

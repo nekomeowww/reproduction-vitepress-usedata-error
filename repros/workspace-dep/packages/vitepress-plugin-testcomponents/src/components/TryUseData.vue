@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// import { useData } from 'vitepress/dist/client/index.js'
 import { useData } from 'vitepress'
 // import ClientOnly from './ClientOnly.vue'
 

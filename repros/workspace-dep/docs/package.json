@@ -6,7 +6,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.12",
+    "vitepress": "1.0.0-rc.14",
     "vue": "^3.3.4"
   },
   "dependencies": {

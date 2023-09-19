@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   vitepress:
-    specifier: 1.0.0-rc.12
-    version: 1.0.0-rc.12(@algolia/client-search@4.20.0)(search-insights@2.8.2)
-  vitepress-usedata-repro-monorepo-components:
+    specifier: 1.0.0-rc.14
+    version: 1.0.0-rc.14(@algolia/client-search@4.20.0)(search-insights@2.8.2)
+  vitepress-plugin-testcomponents:
     specifier: 1.0.0
-    version: 1.0.0(vitepress@1.0.0-rc.12)(vue@3.3.4)
+    version: 1.0.0(vitepress@1.0.0-rc.14)(vue@3.3.4)
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -776,19 +776,24 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress-usedata-repro-monorepo-components@1.0.0(vitepress@1.0.0-rc.12)(vue@3.3.4):
-    resolution: {integrity: sha512-hvrAiw8/tnRmW6ZiYNRvvv7GlNy3jDsYrupNVegYJUtGBRbH+PN8OSl0MQDGUaRf2O7+Gn1T4Pr1GMD2twKCZg==}
+  /vitepress-plugin-testcomponents@1.0.0(vitepress@1.0.0-rc.14)(vue@3.3.4):
+    resolution: {integrity: sha512-7H+IGUKQ9HWHSIVHkx0u9UShgNJ5DGXgXHq5tI3kjloZOkDLq8QSA6CgzOyx5Lf9rsX4WjtJvV1rJsRtmifvHw==}
     peerDependencies:
-      vitepress: 1.0.0-rc.12
+      vitepress: 1.0.0-rc.14
       vue: ^3.3.4
     dependencies:
-      vitepress: 1.0.0-rc.12(@algolia/client-search@4.20.0)(search-insights@2.8.2)
+      vitepress: 1.0.0-rc.14(@algolia/client-search@4.20.0)(search-insights@2.8.2)
       vue: 3.3.4
     dev: true
 
-  /vitepress@1.0.0-rc.12(@algolia/client-search@4.20.0)(search-insights@2.8.2):
-    resolution: {integrity: sha512-mZknN5l9lgbBjXwumwdOQQDM+gPivswFEykEQeenY0tv7eocS+bb801IpFZT3mFV6YRhSddmbutHlFgPPADjEg==}
+  /vitepress@1.0.0-rc.14(@algolia/client-search@4.20.0)(search-insights@2.8.2):
+    resolution: {integrity: sha512-yChIeXOAcNvVnSVjhziH1vte0uhKb00PuZf7KdIMfx3ixTMAz73Nn+6gREvCv0SdH+anteGUKz5eljv0ygcgGQ==}
     hasBin: true
+    peerDependencies:
+      markdown-it-mathjax3: ^4.3.2
+    peerDependenciesMeta:
+      markdown-it-mathjax3:
+        optional: true
     dependencies:
       '@docsearch/css': 3.5.2
       '@docsearch/js': 3.5.2(@algolia/client-search@4.20.0)(search-insights@2.8.2)
