@@ -96,8 +96,8 @@ Build it and publish it to the private npm registry server:
 > **NOTE**
 > If you need to delete the private registry's data, you can run the following command when using macOS:
 >
-> 1. Delete the entire storage: rm -rf ~/.local/share/verdaccio/storage
-> 2. Delete only the repro component: rm -rf ~/.local/share/verdaccio/storage/vitepress-usedata-repro-monorepo-components
+> 1. Delete the entire storage: `rm -rf ~/.local/share/verdaccio/storage`
+> 2. Delete only the repro component: `rm -rf ~/.local/share/verdaccio/storage/vitepress-usedata-repro-monorepo-components`
 
 ```shell
 nr build
