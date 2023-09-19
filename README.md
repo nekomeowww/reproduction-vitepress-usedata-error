@@ -114,6 +114,13 @@ cd ../../../regular-dep
 
 Install the component as a regular dependency:
 
+> **WARNING**
+> Remember to remove the set registry once you finish to repro:
+>
+> ```shell
+> pnpm config delete registry
+> ```
+
 ```shell
 pnpm set registry http://localhost:4873/
 ```
