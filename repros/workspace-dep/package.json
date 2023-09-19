@@ -1,0 +1,27 @@
+{
+  "name": "vitepress-usedata-repro-monorepo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "keywords": [],
+  "scripts": {
+    "docs:dev": "pnpm -r --filter=./docs/** run docs:dev",
+    "docs:build": "pnpm -r --filter=./docs/** run docs:build",
+    "docs:preview": "pnpm -r --filter=./docs/** run docs:preview",
+    "packages:dev": "pnpm -r --filter=./packages/** run dev",
+    "packages:stub": "pnpm -r --filter=./packages/** run stub",
+    "packages:build": "pnpm -r --filter=./packages/** run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "workspaces": [
+    "packages/*",
+    "docs/*"
+  ]
+}

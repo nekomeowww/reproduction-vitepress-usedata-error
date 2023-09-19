@@ -1,0 +1,15 @@
+{
+  "name": "verdaccio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "verdaccio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "verdaccio": "^5.26.2"
+  }
+}

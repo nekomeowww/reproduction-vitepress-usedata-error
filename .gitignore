@@ -1,0 +1,8 @@
+.Trash/
+.trash/
+.DS_Store
+
+dist
+node_modules
+
+**/.vitepress/cache/
