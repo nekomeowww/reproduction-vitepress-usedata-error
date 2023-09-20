@@ -1,5 +1,10 @@
 # reproduction-vitepress-usedata-error
 
+A reproduction repo for issue [Issue #2987 : inconsistent error behavior about The requested module `'vitepress'` does not provide an export named `'useData'`  · vuejs/vitepress](https://github.com/vuejs/vitepress/issues/2987).
+
+> **WARNING**
+> It has been resolved by [answer](https://github.com/vuejs/vitepress/issues/2987#issuecomment-1726186100).
+
 ## Structure
 
 ```shell
